@@ -5,17 +5,20 @@ body {
 	color: white;
 	background: url(/img/ylean.jpg);
 	background-size: cover;
-  	background-position: center center;
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-color: #cb7ad5;
-  	min-height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #cb7ad5;
+	min-height: 100vh;
 }
 
-::-moz-selection,
+::-moz-selection {
+	color: white; 
+	background: #cb7ad5;
+}
 ::selection {
-    color: white; 
-    background: #cb7ad5;
+	color: white; 
+	background: #cb7ad5;
 }
 
 .portrait-wrapper {
@@ -68,7 +71,7 @@ body {
 .icons a {
 	color:#FFFEEE;
 	-webkit-transition: color 0.3s;
-    transition: color 0.3s;
+	transition: color 0.3s;
 	text-decoration: none;
 }
 

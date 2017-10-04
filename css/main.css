@@ -13,11 +13,11 @@ body {
 }
 
 ::-moz-selection {
-	color: white; 
+	color: white;
 	background: #cb7ad5;
 }
 ::selection {
-	color: white; 
+	color: white;
 	background: #cb7ad5;
 }
 
@@ -32,7 +32,7 @@ body {
 
 	width: 200px;
 	height: 200px;
-	
+
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -42,7 +42,7 @@ body {
 	margin-top: -100px;
 	margin-left: -100px;
 
-	background: url(/img/shayan200.png) no-repeat;
+	background: url(/img/shayan400.png) no-repeat;
 	box-shadow: 0px 0px 100px #FFF;
 }
 
